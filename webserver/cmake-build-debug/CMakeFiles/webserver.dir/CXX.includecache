@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hins/CLionProjects/webserver/HttpServer.cpp
+HttpServer.h
+/home/hins/CLionProjects/webserver/HttpServer.h
+
+/home/hins/CLionProjects/webserver/HttpServer.h
+stdio.h
+-
+stdlib.h
+-
+sys/socket.h
+-
+iostream
+-
+sys/epoll.h
+-
+netinet/in.h
+-
+unistd.h
+-
+string.h
+-
+netdb.h
+-
+arpa/inet.h
+-
+fcntl.h
+-
+
